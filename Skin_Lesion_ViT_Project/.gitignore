@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python byte-code and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large datasets & pre-processed cache
+data/
+*.npz
+cache_*.npz
+
+# Presentations
+*.pptx
+*.ppt
+
+# System & IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
